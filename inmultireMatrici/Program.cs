@@ -11,7 +11,7 @@ namespace inmultireMatrici
             int[,] matrix = new int[matrix1.GetLength(0), matrix2.GetLength(1)];
 
             if (matrix1.GetLength(1) != matrix2.GetLength(0))
-                Console.WriteLine("Matricile nevalide!");
+                Console.WriteLine("Matricile nu pot fi inmultite!");
             else
             {
                 Inmultire(matrix1, matrix2, matrix);
